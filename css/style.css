@@ -1,0 +1,63 @@
+.p-with-mark {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: rgb(183, 149, 230);
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30vh;
+}
+.p-with-mark mark {
+  /*color: rgb(61, 45, 83);*/
+  color: unset;
+  background-color: transparent;
+  background-image: linear-gradient(120deg, rgb(226, 255, 255) 0, rgb(226, 255, 255) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.5em;
+  background-position: 0 90%;
+}
+
+.p-with-a {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: rgb(183, 149, 230);
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30vh;
+}
+.p-with-a a {
+  text-decoration: none;
+  /*color: rgb(61, 45, 83);*/
+  color: unset;
+  background-image: linear-gradient(120deg, rgb(226, 255, 255) 0, rgb(226, 255, 255) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.5em;
+  background-position: 0 90%;
+  transition: background-size 0.2s ease-in, color 0.25s ease-in;
+}
+.p-with-a a:hover {
+  background-size: 100% 100%;
+}
+
+.p-with-span {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: rgb(183, 149, 230);
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30vh;
+}
+.p-with-span span {
+  text-decoration: none;
+  /*color: rgb(61, 45, 83);*/
+  color: unset;
+  background-image: linear-gradient(120deg, rgb(226, 255, 255) 0, rgb(226, 255, 255) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.5em;
+  background-position: 0 90%;
+}/*# sourceMappingURL=style.css.map */
